@@ -168,11 +168,11 @@ class KernelPointFCNN:
 
             self.h_loss = tf.losses.sigmoid_cross_entropy(self.onehot_labels[4], supervised_features[0])
             supervision_layer_num += 1
-            self.h_loss = tf.losses.sigmoid_cross_entropy(self.onehot_labels[3], supervised_features[1])
+            self.h_loss += tf.losses.sigmoid_cross_entropy(self.onehot_labels[3], supervised_features[1])
             supervision_layer_num += 1
-            self.h_loss = tf.losses.sigmoid_cross_entropy(self.onehot_labels[2], supervised_features[2])
+            self.h_loss += tf.losses.sigmoid_cross_entropy(self.onehot_labels[2], supervised_features[2])
             supervision_layer_num += 1
-            self.h_loss = tf.losses.sigmoid_cross_entropy(self.onehot_labels[1], supervised_features[3])
+            self.h_loss += tf.losses.sigmoid_cross_entropy(self.onehot_labels[1], supervised_features[3])
             supervision_layer_num += 1
             self.h_loss /= supervision_layer_num
             self.h_loss *= 0.1

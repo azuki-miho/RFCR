@@ -21,3 +21,6 @@ If you want to visualize the results on S3DIS Area-5, change the 'result_path' a
 ```
 python3 visuliaze_s3dis.py
 ```
+
+## Acknowledgment
+This repo is modified from the the recent work <a href="https://github.com/HuguesTHOMAS/KPConv">KPConv</a>.

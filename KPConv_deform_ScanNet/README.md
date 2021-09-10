@@ -21,3 +21,6 @@ If you want to visualize the results on the validation set of Scannet v2, change
 ```
 python3 visuliaze_scannet.py
 ```
+
+## Acknowledgment
+This repo is modified from the the recent work <a href="https://github.com/HuguesTHOMAS/KPConv">KPConv</a>.

@@ -21,3 +21,6 @@ If you want to visualize the results on Semantic3D, change the 'result_path' par
 ```
 python3 visuliaze_semantic3d.py
 ```
+
+## Acknowledgment
+This repo is modified from the the recent work <a href="https://github.com/HuguesTHOMAS/KPConv">KPConv</a>.
