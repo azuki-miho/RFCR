@@ -21,7 +21,7 @@ If you want to evaluate the performance on Area-5
 sh jobs_area5_s3dis.sh
 ```
 
-## Acknowledgment
+## Acknowledgments
 This repo is modified from the recent work <a href="https://github.com/QingyongHu/RandLA-Net">RandLA-Net</a>.
 
 ## License
